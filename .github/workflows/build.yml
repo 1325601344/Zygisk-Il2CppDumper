@@ -2,8 +2,8 @@ name: Build
 on:
   workflow_dispatch:
       inputs:
-        package_name:
-          description: "Package name of the game:"
+        package_name:1
+          description: "Package name of the game:tegene"
           required: true
 
 jobs:
